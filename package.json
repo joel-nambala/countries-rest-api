@@ -4,11 +4,12 @@
   "description": "Countries REST API to learn asynchronus JavaScript",
   "main": "script.js",
   "scripts": {
-    "server": "live-server --port=8090 "
+    "start": "parcel index.html",
+    "publish": "parcel build index.html"
   },
   "author": "Joel Nambala",
   "license": "ISC",
-  "dependencies": {
-    "live-server": "^1.2.2"
+  "devDependencies": {
+    "parcel": "^2.10.2"
   }
 }
