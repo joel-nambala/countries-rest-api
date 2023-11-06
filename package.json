@@ -1,0 +1,14 @@
+{
+  "name": "countries-rest-api",
+  "version": "1.0.0",
+  "description": "Countries REST API to learn asynchronus JavaScript",
+  "main": "script.js",
+  "scripts": {
+    "server": "live-server --port=8090 "
+  },
+  "author": "Joel Nambala",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
