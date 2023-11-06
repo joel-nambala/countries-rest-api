@@ -7,9 +7,9 @@
   --secondary-color-dark: ; */
   --color-light: #f6f6f8;
   --color-dark: #2b2b2b;
-  --box-shadow-light: 10px 10px 15px -3px rgba(0, 0, 0, 0.1);
-  --box-shadow-hover: 4px 4px 15px -3px rgba(0, 0, 0, 0.1);
-  --box-shadow-dark: 6px 4px 15px -3px rgb(72, 79, 86, 0.6);
+  --box-shadow-light: 0 0 20px 4px rgba(0, 0, 0, 0.1);
+  --box-shadow-hover: 0 0 15px 1px rgba(0, 0, 0, 0.1);
+  --box-shadow-dark: 0 0 20px 4px rgb(72, 79, 86, 0.6);
   --color-danger: #ff6b6b;
   --color-warning: #fcc419;
   --color: #444;
@@ -36,6 +36,7 @@ body {
   font-family: sans-serif;
   color: var(--color);
   background-color: #f8fafc;
+  padding: 0 1rem;
 }
 
 /*********************************************/
@@ -45,6 +46,8 @@ body {
   max-width: 110rem;
   margin: 4rem auto;
   padding: 2rem;
+  box-shadow: var(--box-shadow-light);
+  border-radius: 0.4rem;
 }
 
 .btn {

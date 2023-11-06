@@ -2,7 +2,6 @@
   "name": "countries-rest-api",
   "version": "1.0.0",
   "description": "Countries REST API to learn asynchronus JavaScript",
-  "main": "script.js",
   "scripts": {
     "start": "parcel index.html",
     "publish": "parcel build index.html"
